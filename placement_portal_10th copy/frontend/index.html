@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement Portal — IITM</title>
+  <meta name="description" content="Institute Placement Portal: Connect students with top companies for placement drives and job opportunities." />
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #3730a3;
+      --accent: #06b6d4;
+      --bg: #f1f5f9;
+      --card-bg: #ffffff;
+      --sidebar-bg: #1e1b4b;
+      --sidebar-text: #c7d2fe;
+      --sidebar-active: #6366f1;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: #1e293b; }
+
+    /* ── Navbar ─────────────────────────────────── */
+    .navbar-brand { font-weight: 700; font-size: 1.3rem; color: #fff !important; }
+    .top-nav { background: var(--primary); }
+
+    /* ── Auth pages ─────────────────────────────── */
+    .auth-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+    }
+    .auth-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2.5rem;
+      width: 100%;
+      max-width: 460px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    }
+    .auth-card h2 { font-size: 1.8rem; font-weight: 700; color: var(--primary); margin-bottom: 0.25rem; }
+    .auth-card .subtitle { color: #64748b; margin-bottom: 1.5rem; font-size: 0.9rem; }
+    .btn-primary-custom {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.65rem 1.25rem;
+      font-weight: 600;
+      width: 100%;
+      transition: background 0.2s;
+    }
+    .btn-primary-custom:hover { background: var(--primary-dark); }
+
+    /* ── Dashboard layout ───────────────────────── */
+    .dashboard-layout { display: flex; min-height: 100vh; }
+    .sidebar {
+      width: 240px;
+      background: var(--sidebar-bg);
+      color: var(--sidebar-text);
+      padding: 1.5rem 0;
+      flex-shrink: 0;
+      position: fixed;
+      top: 0; left: 0; bottom: 0;
+      overflow-y: auto;
+    }
+    .sidebar .logo {
+      color: #fff;
+      font-size: 1.15rem;
+      font-weight: 700;
+      padding: 0 1.25rem 1.5rem;
+      border-bottom: 1px solid #312e81;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .sidebar-nav { list-style: none; padding: 1rem 0; }
+    .sidebar-nav li { padding: 0; }
+    .sidebar-nav a, .sidebar-nav button {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      width: 100%;
+      background: transparent;
+      border: none;
+      color: var(--sidebar-text);
+      padding: 0.75rem 1.25rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      border-left: 3px solid transparent;
+    }
+    .sidebar-nav a:hover, .sidebar-nav button:hover { background: #312e81; color: #fff; }
+    .sidebar-nav a.active, .sidebar-nav button.active {
+      background: #312e81;
+      color: #fff;
+      border-left-color: var(--sidebar-active);
+    }
+
+    .main-content {
+      margin-left: 240px;
+      flex: 1;
+      padding: 1.75rem;
+      min-height: 100vh;
+    }
+
+    /* ── Cards / stats ──────────────────────────── */
+    .stat-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      transition: transform 0.15s;
+    }
+    .stat-card:hover { transform: translateY(-2px); }
+    .stat-card .value { font-size: 2.2rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { font-size: 0.85rem; color: #64748b; margin-top: 0.25rem; }
+    .stat-card .icon-bg {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .content-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
+    }
+    .content-card h5 { font-weight: 700; margin-bottom: 1rem; color: #1e293b; }
+
+    /* ── Table ──────────────────────────────────── */
+    .table-clean th { background: #f8fafc; font-size: 0.82rem; font-weight: 600; text-transform: uppercase; color: #64748b; }
+    .table-clean td { font-size: 0.88rem; vertical-align: middle; }
+
+    /* ── Badges ─────────────────────────────────── */
+    .badge-pending   { background: #fef9c3; color: #854d0e; }
+    .badge-approved  { background: #dcfce7; color: #166534; }
+    .badge-rejected  { background: #fee2e2; color: #991b1b; }
+    .badge-applied   { background: #dbeafe; color: #1e40af; }
+    .badge-shortlisted { background: #ede9fe; color: #5b21b6; }
+    .badge-selected  { background: #d1fae5; color: #065f46; }
+    .badge-closed    { background: #f1f5f9; color: #64748b; }
+
+    /* ── Drive card ─────────────────────────────── */
+    .drive-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.2rem 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--primary);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .drive-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+    .drive-card h6 { font-size: 1rem; font-weight: 700; color: #1e293b; }
+    .drive-card .meta { font-size: 0.82rem; color: #64748b; margin: 0.25rem 0; }
+
+    /* ── Utilities ──────────────────────────────── */
+    .page-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; color: #1e293b; }
+    .section-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #1e293b; }
+    .text-muted-sm { font-size: 0.82rem; color: #94a3b8; }
+    .spinner-overlay {
+      position: fixed; top:0;left:0;right:0;bottom:0;
+      background: rgba(255,255,255,0.7);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 9999;
+    }
+    .alert-floating {
+      position: fixed; top: 1.5rem; right: 1.5rem;
+      z-index: 9998; min-width: 300px; max-width: 420px;
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+      animation: slideIn 0.3s ease;
+    }
+    @keyframes slideIn { from { transform: translateX(50px); opacity:0; } to { transform: translateX(0); opacity:1; } }
+
+    #app-charts canvas { max-height: 260px; }
+
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .main-content { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- Toast -->
+    <div v-if="toast.show" :class="`alert alert-${toast.type} alert-floating d-flex align-items-center gap-2`">
+      <i :class="toast.type === 'success' ? 'bi bi-check-circle-fill' : 'bi bi-exclamation-triangle-fill'"></i>
+      <span>{{ toast.msg }}</span>
+    </div>
+
+    <!-- Router view -->
+    <router-view :show-toast="showToast"></router-view>
+  </div>
+
+  <!-- Vue 3 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.prod.js"></script>
+  <!-- Vue Router CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/vue-router@4.3.0/dist/vue-router.global.prod.js"></script>
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <!-- Components -->
+  <script src="/static/src/components/Login.js"></script>
+  <script src="/static/src/components/Register.js"></script>
+  <script src="/static/src/components/AdminDashboard.js"></script>
+  <script src="/static/src/components/CompanyDashboard.js"></script>
+  <script src="/static/src/components/StudentDashboard.js"></script>
+
+  <!-- App bootstrap -->
+  <script src="/static/src/app.js"></script>
+</body>
+</html>

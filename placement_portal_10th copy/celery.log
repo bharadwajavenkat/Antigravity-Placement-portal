@@ -1,0 +1,386 @@
+[2026-03-10 07:37:09,153: WARNING/MainProcess] /Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-03-10 07:37:09,157: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2026-03-10 07:37:11,168: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 4.00 seconds... (2/100)
+
+[2026-03-10 07:37:15,182: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 6.00 seconds... (3/100)
+
+[2026-03-10 07:37:21,199: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 8.00 seconds... (4/100)
+
+[2026-03-10 07:37:29,235: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 10.00 seconds... (5/100)
+
+[2026-03-10 07:37:39,273: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 12.00 seconds... (6/100)
+
+[2026-03-10 07:37:51,318: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 14.00 seconds... (7/100)
+
+[2026-03-10 07:38:05,370: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 16.00 seconds... (8/100)
+
+[2026-03-10 07:38:21,427: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 18.00 seconds... (9/100)
+
+[2026-03-10 07:38:39,488: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 20.00 seconds... (10/100)
+
+[2026-03-10 07:38:59,562: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 22.00 seconds... (11/100)
+
+[2026-03-10 07:39:21,642: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 24.00 seconds... (12/100)
+
+[2026-03-10 07:39:45,718: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 26.00 seconds... (13/100)
+
+[2026-03-10 07:40:11,811: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 28.00 seconds... (14/100)
+
+[2026-03-10 07:40:39,925: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 30.00 seconds... (15/100)
+
+[2026-03-10 07:41:10,052: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:41:42,177: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:42:14,280: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:42:46,387: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:43:18,498: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:43:50,611: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:44:22,731: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:44:54,846: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:45:26,971: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:45:59,090: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:46:31,213: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:47:03,340: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:47:35,452: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:48:07,562: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:48:39,690: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:49:11,809: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:49:43,920: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:50:16,049: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:50:48,178: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:51:20,309: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:51:52,435: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:52:24,553: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:52:56,659: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:53:28,771: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:54:00,886: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:54:33,009: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:55:05,129: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:55:37,239: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:56:09,354: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:56:41,464: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:57:13,582: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:57:45,681: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:58:17,811: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:58:49,922: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:59:22,044: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 07:59:54,162: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:00:26,266: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:00:58,368: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:01:30,479: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:02:02,604: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:02:34,723: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:03:06,846: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:03:38,974: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:04:11,089: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:04:43,199: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:05:15,323: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:05:47,434: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:06:19,559: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:06:51,683: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:07:23,796: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:07:55,922: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:08:28,037: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:09:00,160: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:09:32,282: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:10:04,399: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:10:36,503: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:11:08,627: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:11:40,741: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:12:12,869: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:12:44,999: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:13:17,109: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:13:49,212: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:14:21,317: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:14:53,439: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:15:25,566: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:15:57,687: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:16:29,813: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:17:01,936: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:17:34,050: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:18:06,164: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:18:38,285: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:19:10,391: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:19:42,506: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:20:14,624: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:20:46,747: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:21:18,887: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:21:51,011: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:22:23,142: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:22:55,267: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:23:27,364: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:23:59,471: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:24:31,586: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:25:03,696: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:25:35,807: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:26:07,936: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 61 connecting to localhost:6379. Connection refused..
+Trying again in 32.00 seconds... (16/100)
+
+[2026-03-10 08:26:40,070: CRITICAL/MainProcess] Unrecoverable error: OperationalError('Error 61 connecting to localhost:6379. Connection refused.')
+Traceback (most recent call last):
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 951, in create_channel
+    return self._avail_channels.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 264, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 265, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 627, in _connect
+    raise err
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 474, in _reraise_as_library_errors
+    yield
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 461, in _ensure_connection
+    return retry_over_time(
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 941, in _connection_factory
+    self._connection = self._establish_connection()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 863, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 975, in establish_connection
+    self._avail_channels.append(self.create_channel(self))
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 953, in create_channel
+    channel = self.Channel(connection)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/transport/redis.py", line 757, in __init__
+    self.client.ping()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/commands/core.py", line 1216, in ping
+    return self.execute_command("PING", **kwargs)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/client.py", line 533, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 1086, in get_connection
+    connection.connect()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/redis/connection.py", line 270, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 340, in start
+    blueprint.start(self)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/connection.py", line 21, in start
+    c.connection = c.connect()
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 469, in connect
+    conn = self.connection_for_read(heartbeat=self.amqheartbeat)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 475, in connection_for_read
+    return self.ensure_connected(
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 526, in ensure_connected
+    conn = conn.ensure_connection(
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 408, in ensure_connection
+    self._ensure_connection(*args, **kwargs)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 461, in _ensure_connection
+    return retry_over_time(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/Users/bharadwajg/Documents/IITM/MAD 2 project/placement_portal_10th/venv/lib/python3.9/site-packages/kombu/connection.py", line 478, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
